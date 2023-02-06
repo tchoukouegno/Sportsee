@@ -1,0 +1,89 @@
+.navVertical {
+
+    background-color: #000000;
+    width: 110px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 400px;
+
+
+
+}
+
+.backrgroundIcon {
+
+    height: 60px;
+    width: 60px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transform: translate3d(20px,120px,0);
+
+}
+
+.yogaPosture {
+
+    transform: translate3d(3px,20px,0);
+
+}
+
+.head {
+
+    transform: translate3d(25px,-5px,0);
+
+
+}
+
+.natation {
+
+    transform: translate3d(7px,20px,0);
+
+}
+
+.headNatation {
+
+    transform: translate3d(30px,0,0);
+
+}
+
+.velo {
+
+    transform: translate3d(7px,13px,0);    
+
+
+}
+
+.charge {
+
+
+    transform: translate3d(13px,15px,0);  
+
+}
+
+.copyryght {
+
+
+    position: absolute;
+    /* z-index: 5; */
+    /* background-color: red; */
+    width: 130px;
+    transform: rotate(-90deg);
+    /* right: 10px; */
+    bottom: 140px;
+    right: -5px;
+    font-size: 0.6rem;
+
+
+}
+
+.navUserInfoPosition {
+
+    display: flex;
+    gap: 100px;
+    
+
+
+}
+

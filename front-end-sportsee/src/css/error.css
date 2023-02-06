@@ -1,0 +1,35 @@
+.error {
+
+    color: #FF0101;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.errorTitle {
+
+    font-size: 18rem;
+    position: absolute; 
+    top: -275px;
+    left: 480px; 
+    z-index: 2;
+
+}
+
+.errorMessage {
+
+    font-size: 2rem;
+
+}
+
+.spanFlex {
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    transform: translate3d(0,300px,0);
+   
+
+
+}

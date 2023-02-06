@@ -1,0 +1,275 @@
+.usernameprofil {
+
+   
+   color: #FF0101;
+
+
+}
+
+.gridCart {
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 25px;
+    transform: translate3d(0,15px,0);
+    /* height: 500px;
+    background-color: aquamarine; */
+
+}
+
+.cart {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+  
+}
+
+.cartFlex {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+
+
+}
+.profil {
+
+    width: 1200px;
+
+
+}
+
+.cartFoodnutrent {
+
+
+    width:100%;
+    height: 120px;
+    background-color: #FBFBFB; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+   
+
+}
+
+.backgroundIcon {
+
+    background-color: #FBEAEA;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+#backgroundIconProteines {
+
+    background-color: #E9F4FB;
+    
+
+}
+
+#backgroundIconGlucides {
+
+    background-color: #FBF6E5;
+
+}
+
+
+.backgroundIcon svg {
+
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+}
+
+.keyData span {
+
+    display: block;
+
+}
+
+.foodnutrentData {
+
+    font-weight: bolder;
+    font-size: 1.1rem;
+
+}
+
+.foodnutrentName{
+
+    font-size: 0.9rem;
+    color: #878B9C;
+    
+
+
+}
+
+.cartStatBar {
+
+    height: 100%;
+    width: 100%;
+    background-color: #FBFBFB;
+    /* padding-top: 60px; */
+    position: relative;
+    
+
+}
+
+.cartStatPerformance {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.statPerformance {
+
+    height: 100%;
+    width: 100%;
+    background-color: #FBFBFB;
+    position: relative;
+   
+    
+
+}
+
+.statPerformanceRadar {
+
+    height: 100%;
+    width: 100%;
+    background-color: #282D30;
+    border-radius: 5px;
+
+
+}
+
+.statPerformanceSessions {
+
+    height: 100%;
+    width: 100%;
+    background-color: #FF0101;
+    border-radius: 5px;
+    /* background-color: #FBFBFB; */
+    position: relative;
+
+
+}
+
+
+
+
+.custom-tooltip {
+
+    background-color: red;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid transparent;
+
+    
+}
+
+.tooltip-item {
+
+    color: #FFFFFF;
+    font-size: 0.6rem;
+
+}
+
+.custom-tooltipArea {
+
+    background-color: #FFFFFF;
+    width: 55px;
+    height: 33px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid transparent;
+
+
+}
+
+
+.statPerformanceSessionsTitle {
+
+    color:#FF8181 ;
+    font-size: 1.2rem;
+    width: 180px;
+    font-weight: 500;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+
+
+}
+
+.pourcent span {
+
+    display: block;
+
+}
+
+.pourcentScore {
+
+    font-size: 2rem;
+   
+}
+
+.pourcentScoreObjectif {
+
+    width: 100px;
+    color: #74798C;
+    font-size: 1.5rem;
+    transform: translate3d(-5px,0,0);
+
+}
+
+.scoremap {
+
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    z-index: 2;
+
+}
+
+.statPerformanceTitle {
+
+    position: absolute;
+    font-size: 1.1rem;
+    left: 20px;
+
+}
+
+.legendSeize {
+
+   font-size: 1rem;
+   /* display: block; */
+    
+   
+}
+
+.cartStatBarTitle {
+
+    position: absolute;
+    left: 30px;
+    font-size: 1rem;
+    top: 35px;
+
+}
